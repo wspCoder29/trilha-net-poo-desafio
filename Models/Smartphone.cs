@@ -15,25 +15,25 @@ namespace DesafioPOO.Models
             this.memoria = memoria;
         }
 
-        public string Numero
+        protected string Numero
         {
             get { return numero; }
             set { numero = value; }
         }
 
-        public string Modelo
+        protected string Modelo
         {
             get { return modelo; }
             set { modelo = value; }
         }
 
-        public string Imei
+        protected string Imei
         {
             get { return imei; }
             set { imei = value; }
         }
 
-        public int Memoria
+        protected int Memoria
         {
             get { return memoria; }
             set { memoria = value; }
